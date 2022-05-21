@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="grid" id="hd-container">
+        <!-- Header bar -->
+        <div id="header" class="row">
+            <!--  -->
+            <div id="name-role" class="col l-6 m-11 c-11">
+                <i class="fa-solid fa-user-astronaut" style="color: rgba(0,80,255,80%);"></i>
+                <label for="about-but" id="name" class="la-hover"> Huynh Cuong <span id="role">/ Front-end developer</span></label>
+            </div>
+            <!-- Nav on desktop -->
+            <div id="nav-bar" class="col l-6 m-0 c-0">
+                <ul id="nav-items" class="row">
+                    <label for="about-but" class="nav-about nav-item la-hover la-check">
+                        <input type="radio" name="choose" class="check-but" id="about-but" checked>
+                        <span>ABOUT ME</span>
+                    </label>
+                    <label  for="resume-but" class="nav-resume nav-item la-hover la-check">
+                        <input type="radio" name="choose" class="check-but" id="resume-but">
+                        <span>RESUME</span>
+                    </label>
+                    <label for="project-but" class="nav-project nav-item la-hover la-check">
+                        <input type="radio" name="choose" class="check-but" id="project-but">
+                        <span>PROJECT</span>
+                    </label>
+                    <label for="learn-but" class="nav-learn nav-item la-hover la-check">
+                        <input type="radio" name="choose" class="check-but" id="learn-but">
+                        <span>LEARN</span>
+                    </label>
+                </ul>
+            </div>
+            <!-- Nav but -->
+            <div id="nav-but" class="col l-0 m-1 c-1">
+                <label for="open-nav-side" class="la-hover">
+                    <i class="fa-solid fa-bars"></i>
+                    <input type="checkbox" class="check-but" id="open-nav-side">
+                </label>
+            </div>
+        </div>
+        <!-- Nav side -->
+        <div id="nav-side">
+            <div id="overlay"></div>
+            <div id="nav-side-items">
+                <div id="contain-items"> 
+                    <label id="close-nav-but" for="open-nav-side" class="la-hover la-check-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <label for="about-but" class="nav-about nav-item la-hover la-check">ABOUT ME</label>       
+                    <label for="resume-but" class="nav-resume nav-item la-hover la-check">RESUME</label>
+                    <label for="project-but" class="nav-project nav-item la-hover la-check">PROJECTS</label>
+                    <label for="learn-but" class="nav-learn nav-item la-hover la-check">LEARN</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="grid" id="content-container">
+        <!-- About me -->
+        <div id="about" class="row">
+            <!-- Intro 1 -->
+            <div id="intro-1" class="col l-5 m-8 c-10">
+                <div class="flex-center">
+                    <div class="row">
+                        <div id="ava-img">
+                            <img src="/img/ava.jpg" alt="" width="200px" height="200px">
+                        </div>
+                    </div>
+                    <div class="row text-name">
+                        <p>Huynh Nguyen Anh Cuong</p>
+                    </div>
+                    <div class="br-cr row"></div>
+                    <div class="row text-role">
+                        <p>Front-end developer</p>
+                    </div>
+                    <div class="row icons">
+                        <div class="icon"><a href="https://www.facebook.com/anhcuonghuynhnguyen/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="icon"><a href="https://zalo.me/0395507450" target="_blank"><i class="fa-solid fa-z"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/huynh-cuong-063616234" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                        <div class="icon"><a href="https://www.instagram.com/anhcuonghuynhnguyen/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Intro 2 -->
+            <div id="intro-2" class="col l-6 m-8 c-10">
+                <div class="flex-center">
+                    <div class="row intro-title">
+                        <p>Hello</p>
+                    </div>
+                    <div class="row intro-low">
+                        <p>Here's who I am & what I do</p>
+                    </div>
+                    <div class="row intro-but">
+                        <button class="col l-4 m-3 c-4 but-hover-1">
+                            <label for="resume-but">RESUME</label>
+                        </button>
+                        <button class="col l-4 m-3 c-4 but-hover-2">
+                            <label for="project-but">PROJECTS</label>
+                        </button>
+                    </div>
+                    <div class="row intro-p1">
+                        <p>Mình là Huỳnh Cường, 18 tuổi. Mình sinh ra và lớn lên ở Khánh Hòa. Hiện đang là sinh viên năm hai chuyên ngành khoa học dữ liệu tại trường đại học UEH. Mình là người vui vẻ, hòa đồng và khá năng động. Tuy nhiên, cũng là một người khá nhạy cảm và một chút kỷ luật.</p>
+                    </div>
+                    <div class="row intro-p2">
+                        <p>Mục tiêu của mình hiện tại là trở thành một Full-stack developer. Sau khi ra trường mình mong muốn được làm việc ở một công ty quốc tế nên ngay từ bây giờ mình luôn cố gắng học tập và nghiên cứu những lĩnh vực cần thiết liên quan. Đó không phải là một con đường dễ dàng, nhưng mình sẽ cố gắng hết sức để đạt được mục tiêu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Resume -->
+        <div id="resume" class="row">
+                <div id="resume-title" class="row">Resume</div>
+                <!-- Experience -->
+                <div id="exper" class="row">
+                    <div class="l-12">
+                        <div id="exper-row" class="row">
+                            <div id="resume-exper-subtitle" >Experience</div>
+                            <div>
+                                <button id="download-but">Download CV</button>
+                            </div>
+                        </div>
+                        <div id="exper-content" class="resume-content">
+                            <div class="row row-content">
+                                <div class="l-12 m-12 c-12" style="text-align: center;">
+                                    <p>NOTHING =))</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education -->
+                <div id="edu" class="row">
+                    <div class="row resume-subtitle">Education</div>
+                    <div id="edu-content" class="resume-content">
+                        <div class="row row-title">2021 - Present</div>
+                        <div class="row row-content">
+                            <div class="l-4 m-4 sub">
+                                <p>UEH University</p>
+                                <p>Sophomore</p>
+                                <p>Data Science</p>
+                            </div>
+                            <div class="l-7 m-7">
+                                <p>Trường Đại học Kinh tế Thành phố Hồ Chí Minh là một đại học đa ngành tại Việt Nam, nằm trong nhóm đại học trọng điểm quốc gia.</p>
+                                <p>Đây là một trụ cột trong hệ thống giáo dục bậc cao của Việt Nam và cũng là trung tâm nghiên cứu các chính sách kinh tế, quản lý cho chính phủ và các doanh nghiệp lớn.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill -->
+                <div id="skill" class="row">
+                    <div class="row resume-subtitle">Skills</div>
+                    <div id="skill-content" class="resume-content">
+                        <div class="row row-title">HTML/CSS</div>
+                        <div class="row row-content">
+                            <div class="">
+                                <p>Biết cách xây dựng giao diện web với HTML, CSS, phân tích giao diện website.</p>
+                                <p>Làm chủ Flexbox khi dựng bố cục website, giao diện web responsive.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="skill-content" class="resume-content">
+                        <div class="row row-title">Javascript</div>
+                        <div class="row row-content">
+                            <div class="l-3 m-3 sub">
+                                <p>Basic</p>
+                                <p>Jquery</p>
+                                <p>VueJs</p>
+                                <p>ReactJs</p>
+                            </div>
+                            <div class="l-8 m-8">
+                                <p>Đã học xong cơ bản Javascript (var, loop, object,... ), hiểu chi tiết về các khái niệm cơ bản trong JS.</p>
+                                <p>Có thể sử dụng tành thạo DOM cho các chức năng cơ bản của web (bật tắt nav, ẩn hiện các side,...).</p>
+                                <p>Hiện đang học các thư viện VueJs và ReactJs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+        </div>
+        <!-- Projects -->
+        <div id="projects" class="row">
+            <div id="projects-title" class="row">Projects</div>
+            <div id="projects-sub-title" class="row">
+                <p>Chào mừng đến với kho tàng dự án của mình, biết là nó không nhiều =)) nhưng chắc chắn bạn sẽ thích thú.</p>
+            </div>
+            <div class="row project">
+                <div class="project-content">
+                    <div class="row project-title">
+                        <div class="main-title"><a href="">Web Portfolio</a></div>
+                        <div class="sub-title">
+                            7 days - 16 -> 22/5/2022
+                        </div>
+                    </div>
+                    <div class="row content-project">
+                        <p>
+                            Web Portfolio là một dự án được mình code sau khi học hết html/ css/ javascript cơ bản. Thế nên dự án này là code thuần 100%, không sử dụng thư viện. Mình có tự tạo cho dự án một thư viện grid system để thuận tiện cho việc responsive. Dự án có 3 break point tương ứng với mobile (<740px), tablet (<1113px), desktop. Đây cũng là nơi mình sẽ dùng làm cv và cập nhập các dự án mới trong tương lai. Nếu phát hiện lỗi hay bất cứ góp ý nào hãy liện hệ cho mình nhé.
+                        </p>
+                    </div>     
+                </div>
+                <div class="project-img">
+                    <img src="https://static.wixstatic.com/media/11062b_6369a82539704f78b4fffed0ef058629~mv2_d_2346_1998_s_2.jpg/v1/crop/x_242,y_0,w_1590,h_1993/fill/w_322,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Leaflet.jpg" alt="ảnh">
+                </div>
+            </div>
+            <div class="row project">
+                <div class="project-content">
+                    <div class="row project-title">
+                        <div class="main-title"><a href="">Comming soon</a></div>
+                        <div class="sub-title">Comming soon</div>
+                    </div>
+                    <duv class="row content-project">Comming soon</duv>     
+                </div>
+                <div class="project-img">
+                    <img src="https://static.wixstatic.com/media/84770f_30b5b37a554c487d85fffde598298a77~mv2.jpg/v1/crop/x_429,y_0,w_1514,h_1900/fill/w_322,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Website_Mockup.jpg" alt="ảnh">
+                </div>
+            </div>
+            <div id="project-end" class="row project">
+                <div class="project-content">
+                    <div class="row project-title">
+                        <div class="main-title"><a href="">Comming soon</a></div>
+                        <div class="sub-title">Comming soon</div>
+                    </div>
+                    <duv class="row content-project">Comming soon</duv>     
+                </div>
+                <div class="project-img">
+                    <img src="https://static.wixstatic.com/media/9dbeebdedcd94c2489ccaca2b9fd1aa4.jpg/v1/crop/x_783,y_0,w_2172,h_2725/fill/w_322,h_404,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/App%20Screen.jpg" alt="ảnh">
+                </div>
+            </div>
+        </div>
+        <!-- Learn -->
+        <div id="learn" class="row">
+            <div id="learn-title" class="row">Learn</div>
+            <div id="learn-sub-title" class="row">
+                <p>Tại đây mình sẽ chia sẽ cho mọi người những web, course mà mình đã từng học. Mọi người tham khảo thấy hữu ích thì cho mình biết với nha.</p>
+            </div>
+            <div class="row learn-child">
+                <div class="learn-content">
+                    <div class="row learn-title">
+                        <div class="main-title"><a href="https://howkteam.vn" target="_blank">Kteam</a></div>
+                        <div class="sub-title">Python, C#, ...</div>
+                    </div>
+                    <div class="row content-learn">
+                        <p>
+                            Đây là web mình theo học đầu tiên, mình học Python ở kteam. Sau 1 2 tháng tho học thì mình thấy đây là một web rất chất lượng, nội dung bài giảng hợp lý, cuối mỗi bài thường có bài tập để ôn tập. Kiến thức được những thầy đã đi làm và truyền đạt lại nên rất dễ hiểu và tiếp thu. Nhưng mình chỉ khuyên các bạn nào mới bắt đầu học lập trình căn bản thì mới nên học ở kteam, chứ những kiến thức nâng cao hơn (OOP,...) ở đây giảng rất khó hiểu và không áp dụng được nhiều.
+                        </p>
+                    </div>     
+                </div>
+                <div class="learn-img">
+                    <img src="/img/kteam.jpg" alt="kteam" width="300px" height="300px">
+                </div>
+            </div>
+            <div class="row learn-child">
+                <div class="learn-content">
+                    <div class="row learn-title">
+                        <div class="main-title"><a href="https://fullstack.edu.vn" target="_blank">F8</a></div>
+                        <div class="sub-title">HTML, CSS, Javascript</div>
+                    </div>
+                    <div class="row content-learn">Web của anh Sơn thì không thể chê được, hẳn ai từng học web đều có một tài khoản ở F8. Điều mình rất thích ở F8 là giáo trình bài giảng rất chi tiết và khoa học, kết hợp với thời lượng từng video rất hợp lý đã khiến mình nghiện học ở đây. Điều mà mình thấy F8 cần cải thiện là hệ thống bài tập ở cuối mỗi bài, một số khóa học như JS không có bài tập để luyện khiến mình khá chật vật khi học bài mới phải mở lại video hay note để xem lại bài cũ. Nhưng nhìn chung đây là một web mà bạn có thể theo học lâu dài, vì những kiến thức nâng cao được anh Sơn giảng rất kỹ và có tâm.</div>     
+                </div>
+                <div class="learn-img">
+                    <img src="/img/f8.png" alt="f8">
+                </div>
+            </div>   
+            <div class="row learn-child">
+                <div class="learn-content">
+                    <div class="row learn-title">
+                        <div class="main-title"><a href="https://laptrinhcuocsong.com" target="_blank">Lập trình cuộc sống</a></div>
+                        <div class="sub-title">Full-stack</div>
+                    </div>
+                    <div class="row content-learn">Đây là khóa học fullstack của thầy Bùi Văn Nguyện. Thầy dạy khá có tâm, kiến thức thầy dạy là những gì thầy sử dụng trong công việc developer, cũng như kinh nghiệm của thầy. Ở khóa học này bạn được học một lượng kiến thức rất lớn, rất nặng (trước khi vô học thầy cũng có cảnh báo). Nên khi học bạn phải xác định là theo đến cùng chứ không được bỏ ngang vì đây là khóa học có phí mà =)) 7 củ lận đó. Còn nếu ai hỏi mình vì sao không học ở F8 mà học ở đây cho tốn tiền thì mình xin trả lời là vì ông thầy tấu hài quá nên bỏ tiền vô coi ổng dạy...</div>     
+                </div>
+                <div class="learn-img">
+                    <img src="/img/laptrinhcuocsong.jpg" alt="laptrinhcuocsong">
+                </div>
+            </div>        
+            <div class="row learn-child">
+                <div class="learn-content">
+                    <div class="row learn-title">
+                        <div class="main-title"><a href="https://www.w3schools.com" target="_blank">W3Schools</a></div>
+                        <div class="sub-title">Gì cũng cóa</div>
+                    </div>
+                    <div class="row content-learn">Đây là Web học code quốc dân quá rồi, bạn nào tiếng Anh tốt thì nên học ở trang này nha. Tài liệu tham khảo ở đây không sợ thiếu chỉ sợ không dùng thôi. Mấy lúc quên tag, attribute hay Dom, lên đây search cái có ví dụ cho coi luôn. Khóa học thì tùm lum từa lưa nhìn nản muốn bỏ học đi đánh game luôn. Hê hê.</div>     
+                </div>
+                <div class="learn-img">
+                    <img src="/img/w3s.jpg" alt="w3s">
+                </div>
+            </div>
+            <div id="learn-end" class="row learn-child">
+                <div class="learn-content">
+                    <div class="row learn-title">
+                        <div class="main-title"><a href="https://www.geeksforgeeks.org">GeeksforGeeks</a></div>
+                        <div class="sub-title">Blog IT</div>
+                    </div>
+                    <duv class="row content-learn">GeeksforGeeks là một trang dạng bài blog, chủ đề về IT thì đa dạng vô cùng (AI, Cấu trúc dữ liệu, ML, ...). Trên này cũng có nhiều khóa học hay dạng blog và có bài tập đi kèm (Python, Java,...). Mình thường lên đây để học hỏi những mẹo, trick khi code cho tiện và dễ dàng. Tuy là web nước ngoài sử dụng tiếng anh là chủ yếu nhưng rất là dễ đọc, một đứa dốt Anh nhưng mình cũng tự tin tắt GG dịch để đọc mà bạn sợ gì. À mà đây là web của mấy anh India nha, mà bạn biết rồi đó hacker khét tiếng thế giới thì chỉ có Nga và Ấn đụ =))</duv>     
+                </div>
+                <div class="learn-img">
+                    <img src="/img/geeksforgeeks.png" alt="geeksforgeeks">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="grid" id="footer-container">
+        <div id="footer" class="row">
+            <div id="by-" class="col">@2022 by huynhnguyenanhcuong</div>
+            <div id="col-1">
+                <div id="call" class="">
+                    <div class="padding-5 row">Call</div>
+                    <div class="row">039 550 7450</div>
+                </div>
+                <div id="write" class="">
+                    <div class="padding-5 row">Write</div>
+                    <div class="row">anhcuonghuynhnguyen@gmail.com</div>
+                </div>
+                <div id="follow" class="">
+                    <div class="padding-5 row">Follow</div>
+                    <div class="row icons">
+                        <div class="icon"><a href="https://www.facebook.com/anhcuonghuynhnguyen/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+                        <div class="icon"><a href="https://zalo.me/0395507450" target="_blank"><i class="fa-solid fa-z"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/huynh-cuong-063616234" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                        <div class="icon"><a href="https://www.instagram.com/anhcuonghuynhnguyen/" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/677503762e.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
