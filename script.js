@@ -35,6 +35,8 @@ var navLearn = document.getElementsByClassName('nav-learn');
 
     // Open About
     function showAbout() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         for (var i = 0; i < navAbout.length; i++){
             navAbout[i].style.color = 'blue';
             navResume[i].style.color = 'black';
@@ -51,6 +53,8 @@ var navLearn = document.getElementsByClassName('nav-learn');
 
     // Open Resume
     function showResume() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         for (var i = 0; i < navResume.length; i++){
             navAbout[i].style.color = 'black';
             navResume[i].style.color = 'blue';
@@ -67,6 +71,8 @@ var navLearn = document.getElementsByClassName('nav-learn');
 
     // Open Project
     function showProject() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         for (var i = 0; i < navProject.length; i++){
             navAbout[i].style.color = 'black';
             navResume[i].style.color = 'black';
@@ -83,6 +89,8 @@ var navLearn = document.getElementsByClassName('nav-learn');
 
     // Open Learn
     function showLearn() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
         for (var i = 0; i < navLearn.length; i++){
             navAbout[i].style.color = 'black';
             navResume[i].style.color = 'black';
