@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 * {
     /* Display & Box model */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* Text */
-    font-family: Tahoma, “Time new roman” , sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 body {
@@ -222,7 +225,6 @@ a {
 
             /* Text */
             font-size: 18px;
-            font-weight: lighter;
         }
 
         #about #intro-1 .icons {
@@ -468,13 +470,13 @@ a {
         #resume .row-title {
             /* Display & Box model */
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
 
             /* Color */
             color: rgb(0,80,255);
 
             /* Text */
-            font-size: 20px;
+            font-size: 22px;
             font-weight: bold;
         }
 
@@ -488,11 +490,16 @@ a {
             text-align: justify;
         }
 
-        #resume .row-content .sub {
+        #resume .row-content .sub p{
             margin-bottom: 10px;
             font-weight: bold;
+            padding-bottom: 10px;
         }
 
+        #resume .row-content div p {
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
 
     /* PROJECTS SECTION */
     #projects {
@@ -571,9 +578,12 @@ a {
             text-align: justify;
         }
 
+        #projects .project .project-content .content-project p {
+            padding-bottom: 10px;
+        }
+
         #projects .project .project-img img {
-            width: 0%;
-            height: 0%;
+            max-width: 0%;
         }
     
     /* LEARN SECTION */
@@ -653,8 +663,7 @@ a {
         }
 
         #learn .learn-child .learn-img img {
-            width: 0%;
-            height: 0%;
+            max-width: 0%;
         }
 
     /* FOOTER SECTION */
@@ -843,10 +852,10 @@ a {
             }
 
             #resume .row-title {
-                padding: 0;
-                height: 50px;
-                font-size: 22px;
-                line-height: 50px;
+                padding-bottom: 20px;
+                height: 70px;
+                font-size: 26px;
+                line-height: 70px;
             }
 
             #resume .row-content {
@@ -879,12 +888,14 @@ a {
             }
 
             #projects .project .project-img {
+                margin: auto 0;
+                padding-right: 10px;
                 width: 40%;
+                height: 100%;
             }
 
             #projects .project .project-img img {
-                width: 100%;
-                height: 100%;
+                max-width: 100%;
             }
 
         /* LEARN SECTION */
@@ -913,12 +924,13 @@ a {
             }
 
             #learn .learn-child .learn-img {
+                margin: auto 0;
                 width: 40%;
+                height: 100%;
             }
 
             #learn .learn-child .learn-img img {
-                width: 100%;
-                height: 100%;
+                max-width: 90%;
             }
 
 
@@ -935,7 +947,6 @@ a {
         #footer #by- {
             display: flex;
             padding:0 0 0 32px;
-            width: 280px;
             order: 1;
         }
 
