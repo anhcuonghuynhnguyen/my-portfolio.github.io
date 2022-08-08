@@ -422,7 +422,6 @@ a {
             height: 40px;
 
             /* Color */
-            color: #fff;
             background-color: rgb(0,80,255);
 
             /* Text */
@@ -434,15 +433,22 @@ a {
             transition: all .25s linear;
         }
 
+        #resume #exper #exper-row #download-but a {
+            color: #fff;
+        }
+
         #resume #exper #exper-row #download-but:hover {
             /* Color */
-            color: black;
             background-color: #fff;
 
             /* Other */
             cursor: pointer;
             border: 2px solid black;
             transition: all .25s linear;
+        }
+
+        #resume #exper #exper-row #download-but a:hover {
+            color: black;
         }
 
         #resume #exper #exper-content {
